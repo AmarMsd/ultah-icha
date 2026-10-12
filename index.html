@@ -9,15 +9,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Gochi+Hand&display=swap" rel="stylesheet">
 <style>
 :root{
-  --wall:#1d4f8c; --wall-deep:#143a69; --paper:#fbfaf6; --ink:#1a1f2b; --muted:#5b6475;
+  --wall:#c93a7d; --wall-deep:#a92d68; --paper:#fbfaf6; --ink:#1a1f2b; --muted:#5b6475;
   --stabilo:#ffe14d; --merah:#e5322d; --flame:#ffb52e; --frame:#2a1d14;
   --display:"Bricolage Grotesque", "Trebuchet MS", system-ui, sans-serif;
   --hand:"Gochi Hand", "Comic Sans MS", "Marker Felt", cursive;
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
 }
-@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --wall:#163f72; --wall-deep:#0f2d52; --paper:#f3f1ea; } }
-:root[data-theme="dark"]{ --wall:#163f72; --wall-deep:#0f2d52; --paper:#f3f1ea; }
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --wall:#b3306f; --wall-deep:#8f2457; --paper:#f3f1ea; } }
+:root[data-theme="dark"]{ --wall:#b3306f; --wall-deep:#8f2457; --paper:#f3f1ea; }
 *,*::before,*::after{box-sizing:inherit}
 html{scroll-behavior:smooth; scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0; font-family:var(--display); color:#fff; line-height:1.5;
@@ -117,7 +117,7 @@ section{padding:80px 0}
 
 /* lightbox */
 dialog{border:none; padding:0; background:transparent; max-width:min(940px,94vw); max-height:92vh}
-dialog::backdrop{background:rgba(8,20,40,.88)}
+dialog::backdrop{background:rgba(70,10,40,.9)}
 dialog img{max-height:72vh; width:auto; margin:0 auto; border:10px solid var(--paper)}
 dialog .cap{color:#fff; text-align:center; margin:14px 0 0; font-size:22px; font-weight:700}
 dialog .close{position:absolute; top:6px; right:6px; background:var(--stabilo); border:none; border-radius:50%; width:40px; height:40px; font-size:20px; font-weight:800; color:var(--ink)}
